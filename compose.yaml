@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    environment:
+      PORT: "3917"
+    ports:
+      - "127.0.0.1:3917:3917"
